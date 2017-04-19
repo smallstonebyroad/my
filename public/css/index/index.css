@@ -1,0 +1,196 @@
+* {
+	padding:0;
+	margin:0 ;
+	border:0;
+}
+.header{
+	height: 70px;
+	background-color: #0261C6;
+}
+.header-logo{
+float: left;
+
+}
+.header-logo img{
+
+	margin: 10px  15px auto;
+}
+.header-logo span{
+
+	font-size: 24px;
+	font-family: "SourceHanSansCN";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	line-height: 1.25;
+	text-align: left;
+	position: relative;
+	top: -15px;
+	z-index: 5;
+
+}
+.header-nav{
+	position: relative;
+	margin-left: 50%;
+
+}
+.nav{
+	float: left;
+	margin: 0 20px 0 15px;
+}
+.nav-icon{
+	background-image: url(../../images/icon1.png);
+	height: 28px;
+	margin: 8px 20px 0 20px;
+}
+.nav-icon2{
+	background-image: url(../../images/icon2.png);
+	height: 28px;
+	margin: 8px 18px 0 20px;
+}
+.nav-icon3{
+	background-image: url(../../images/icon3.png);
+	height: 28px;
+	margin: 8px 20px 0 20px;
+}
+.nav-icon4{
+	background-image: url(../../images/icon4.png);
+	height: 28px;
+	margin: 8px 15px 0 20px;
+}
+.nav-icon5{
+	background-image: url(../../images/icon5.png);
+	height: 28px;
+	margin: 8px 15px 0 20px;
+}
+.nav span{
+	color: rgb( 255, 255, 255 );
+}
+.checked{
+	float: left;
+	background-color: #F79255;
+	height: 70px;
+	padding: 0 10px 0 10px;
+
+}
+.menu{
+	width: 100%;
+	height: 40px;
+	background-color: #E4E4E4;
+	border-bottom: 1px solid #CBCBCB;
+}
+.menu-nav-tab{
+	float: left;
+	line-height: 40px;
+	border-right: 1px solid #CBCBCB;
+
+}
+.menu-nav-tab span{
+	margin: 0 30px 0 30px;
+}
+.menu-nav-func{
+	float: left;
+}
+.func{
+	float: left;
+	height: 34px;
+	border-right: 1px solid #CBCBCB;
+	margin: 2px 0 2px 3px;
+}
+.func-icon{
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 6px 10px 0 6px;
+}
+.func-icon img{
+	margin: 5px 2px 3px 2px;
+	padding-left: 2px;
+
+}
+.active{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #5293D3;
+	background: #ADE5FD;
+	margin: 4px 3px 3px 3px;
+}
+
+.func-time {
+	float: left;
+	line-height: 30px;
+	margin: 5px 8px 4px 10px;
+}
+.func-time span{
+	padding: 5px 10px 5px 10px;
+}
+.func-time .func-checked{
+	margin : 0 10px 0 2px;
+}
+.content{
+	height: 808px;
+	overflow: hidden;
+}
+.content img{
+	height: 800px;
+}
+.content-map{
+	height: 815px;
+	text-align: center;
+	margin: 0 auto;
+}
+.content-caption{
+	position: relative;
+	width: 90px;
+	height: 120px;
+	left: 85%;
+	top:-150px;
+	border: 1px solid #E6E6E6;
+
+}
+.foot{
+	height: 30px;
+	background: #EDEDED;
+	border-top: 1px solid #D1D1D1;
+	line-height: 30px;
+}
+.foot span{
+	margin-left: 2%;
+}
+.caption{
+	line-height: 25px;
+	margin: 10px ;
+
+}
+.level{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid black;
+	margin: 8px 5px 5px 5px;
+}
+.red{
+	background: red;
+}
+.yellow{
+	background: #FCFF75;
+
+}
+.green{
+	background: #22FF72;
+}
+.white{
+	background: #F1F1F1;
+}
+.clear{
+	clear: both;
+}
+.con{
+	display: none;
+}
+.show{
+	display: block;
+}
+.nav-checked{
+	background: white;
+	height: 41px;
+}
